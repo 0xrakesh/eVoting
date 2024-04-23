@@ -1,0 +1,21 @@
+.election-status {
+    display: flex;
+    justify-content: space-around;
+}
+
+.election-btn {
+    background: plum;
+    border: 0px solid;
+    min-width: 15svw;
+    min-height: 6svh;
+    border-radius: 10px;
+    font-family: 'Poppins',sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+}
+
+.election-btn:hover {
+    cursor: pointer;
+    background-color: rgb(255, 115, 255);
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10;
+    background: linear-gradient(20deg,#b370ff,#70aeff);
+    padding: 10svh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.white-text {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button-ctn {
+    height: 6svh;
+    border-radius: 24px;
+    padding: 2svh;
+    border: 0px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+    margin: 2svh;
+}
+
+.login-input {
+    width: 40svh;
+    height: 5svh;
+    border: 0px solid;
+    padding: 4px 12px;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 24px;
+    margin: 2svh;
+}
+
+.login-input:focus {
+    border: 0px solid;
+    outline: 0px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.login-ctn {
+    height: 6svh;
+    width: 12svw;
+    border-radius: 24px;
+    border: 0px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+    margin: 2svh;
+    font-size: large;
+}

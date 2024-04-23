@@ -1,0 +1,57 @@
+.voting-box {
+    padding: 2svh 6svh;
+    background: rgba(234, 180, 255, 0.644);
+    box-shadow: 2px 2px 10px rgba(0,0,0, 0.2);
+    border-radius: 24px;
+}
+
+.voting-header {
+    padding: 2svh 6svh;
+}
+
+.party-box {
+    display: flex;
+    gap: 5svw;
+    flex-wrap: wrap;
+}
+
+.voting-btn {
+    min-height: 10svh;
+    min-width: 15svw;
+    background: white;
+    border-radius: 12px;
+    border: 0.01px solid gray;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.voting-btn:focus {
+    background-color: rgba(208, 89, 255, 0.664);
+    border: 0.1px solid rgb(185, 185, 185);
+    color: white;
+}
+
+.vote-div {
+    display: flex;
+    justify-content: center;
+    margin: 20svh;
+}
+
+.vote-btn {
+    background: plum;
+    border: 0px solid rgb(185, 185, 185);
+    min-width: 10svw;
+    height: 8svh;
+    font-family: 'Poppins',sans-serif;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.vote-btn:hover, .voting-btn:hover {
+    cursor: pointer;
+}
+
+.vote-btn:hover {
+    background: rgb(255, 131, 255);
+}

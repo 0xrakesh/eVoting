@@ -1,0 +1,77 @@
+.party-header {
+    padding: 2svh 6svh;
+}
+
+.party-box {
+    display: flex;
+    gap: 5svw;
+    flex-wrap: wrap;
+}
+
+.voting-btn {
+    min-height: 10svh;
+    min-width: 15svw;
+    background: white;
+    border-radius: 12px;
+    border: 0.01px solid gray;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.vote-div {
+    display: flex;
+    justify-content: center;
+    margin: 20svh;
+}
+
+
+.vote-btn:hover {
+    cursor: pointer;
+}
+
+.party-input-div {
+    margin: 2svw 10svh;
+}
+
+.party-input {
+    background: rgb(231, 231, 231);
+    border: 0px solid;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    min-height: 5svh;
+    border: 20px;
+    min-width: 30svh;
+    font-size: small;
+    padding: 0px 4px;
+}
+
+.party-input:focus {
+    outline: 1px solid black;
+    border: 24px;
+    background: white;
+}
+
+.party-input-btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.party-input-btn {
+    background: plum;
+    min-height: 8svh;
+    min-width: 18svh;
+    color: white;
+    border: 0px solid;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    border-radius: 12px;
+}
+
+.party-input-btn:hover {
+    cursor: pointer;
+    background: rgb(255, 115, 255);
+}
+
+.party-input-btn:focus {
+    outline: none;
+}
